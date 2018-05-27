@@ -3,6 +3,7 @@
   "version": "1.0.8",
   "description": "A library that translates english words to emoji",
   "main": "public/build.js",
+  "browser": "public/build.js",
   "scripts": {
     "test": "node test.js",
     "build": "npm install && webpack",
