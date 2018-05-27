@@ -2,10 +2,10 @@
   "name": "moji-translate",
   "version": "1.0.8",
   "description": "A library that translates english words to emoji",
-  "main": "emoji-translate.js",
+  "main": "public/build.js",
   "scripts": {
     "test": "node test.js",
-    "build": "rm .gitignore && npm install && webpack",
+    "build": "npm install && webpack",
     "clean": "rm -rf ./node_modules"
   },
   "repository": {
@@ -16,6 +16,9 @@
   "license": "MIT",
   "homepage": "https://github.com/notwaldorf/emoji-translate#readme",
   "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
     "emojilib": "^2.0.0"
   },
   "devDependencies": {
